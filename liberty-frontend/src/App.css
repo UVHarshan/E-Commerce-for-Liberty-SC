@@ -1,0 +1,120 @@
+@import "./assets/styles/product.css";
+@import "./assets/styles/footer.css";
+
+.cart-container{
+  position: relative;
+  margin: 10px 30px;
+}
+
+.cart-container .feather-shopping-cart{
+  position: absolute;
+  bottom:-3px;
+  right: 0;
+  cursor: pointer;
+}
+
+.dashboard-card{
+  max-width: 850px;
+  padding: 34px 15px;
+  margin: auto;
+}
+
+.cart-container .circle-div{
+  position: absolute;
+  background-color:  #0d6efd;
+  color: white;
+  font-weight: 500;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  border-radius: 50%;
+  top: -4px;
+  left: 5px;
+  font-size: 14px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+.clientWrapper{
+  min-height: 90vh;
+  background-image: url("./assets/images/background.png");
+  background-repeat: repeat;
+}
+
+
+.sidebar-col{
+  min-height: 90vh;
+  background: #01174c;
+}
+.sidebar-col a{
+  color: #eeffff;
+  margin-left: 1vw;
+}
+
+.sidebar-col a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+.signup {
+  width: 30rem;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(0.1em);
+}
+
+i{
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.d-card {
+  max-width: 350px;
+  min-width: 265px;
+  margin: 6px;
+  border-left: 6px #0d6efd solid;
+  background-color: white;
+  border-radius: 6px;
+}
+
+
+
+.d-card span{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.d-card .circle-d{
+  background-color:  #0d6efd;
+  color: white;
+  font-weight: 500;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.d-card i{
+  float: right;
+  font-size: 50px;
+  font-weight: 300;
+  color: #0d6efd;
+}
+
+.d-card .view-more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.d-card .view-more i{
+  float: left;
+  font-size: 25px;
+  color: black;
+
+}

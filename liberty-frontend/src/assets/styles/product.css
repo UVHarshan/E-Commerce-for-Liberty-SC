@@ -1,0 +1,26 @@
+.product-card {
+    background: white;
+    display: block;
+    width: 250px;
+    margin: 15px auto;
+    padding: 20px 10px;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(0.1em) !important;
+}
+
+.product-card .product-image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.product-card .product-image img {
+    background-color: white;
+}
+
+.product-card h3{
+    min-height: 50px;
+}

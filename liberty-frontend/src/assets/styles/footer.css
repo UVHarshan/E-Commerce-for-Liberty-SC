@@ -1,0 +1,20 @@
+.full-footer {
+    color: #bbd4e0;
+    background-color: #011440;
+}
+
+.full-footer a {
+    color: #bbd4e0;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.full-footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.full-footer .footer-box-div {
+    width: 230px;
+    padding-top: 50px;
+}
